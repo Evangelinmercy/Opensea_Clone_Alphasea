@@ -1,0 +1,245 @@
+/* Login start */
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.form-container {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-main {
+    text-align: center;
+}
+.login-form-userName {
+    padding-top: 20px;
+}
+.login-form-phoneNumber {
+    padding-top: 20px;
+}
+.login-form-password {
+    padding-top: 20px;
+}
+.login-form-submit {
+    padding-top: 20px;
+}
+.long-form-text h2 {
+    width: 61%;
+    font-weight: 600;
+}
+.login-form-userName .userName {
+      width: 50%;
+}
+.login-form-phoneNumber .phoneNumber {
+    width: 50%;
+}
+.login-form-password .form-password{
+    width: 50%;
+}
+.payment-close {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.payment-close svg {
+    font-size: 30px !important;
+}
+
+form.common-form-lrf fieldset {
+    box-shadow: 4.84375px 4.84375px 11.30208px 0px rgba(156, 156, 156, 0.48) inset, -4.84375px -4.84375px 11.30208px 0px #FFF inset;
+    border: none !important;
+    border-radius: 10px;
+}
+
+form.common-form-lrf label{background: #fff;padding: 0 5px;border-radius: 5px;}
+
+
+/* .login-form-image img {
+    width: 100%;
+} */
+@media (max-width: 767.98px) {
+.long-form-text h2 {
+        width: auto;
+    }
+.login-form-userName .userName {
+        width: 80%;
+    }
+.login-form-phoneNumber .phoneNumber {
+    width: 80%;
+}
+.login-form-password .form-password {
+        width: 80%;
+    }
+.login-form-image img {
+    width: 100%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.long-form-text h2 {
+        width: 67%;
+    }
+.login-form-image img {
+    width: 100%;
+}
+}
+
+/* Login end */
+
+/* Register strat */
+.register-form-main {
+    text-align: center;
+}
+.register-form-firstName {
+    padding-top: 20px;
+}
+.register-form-lastName {
+    padding-top: 20px;
+}
+.register-form-email {
+    padding-top: 20px;
+}
+.register-form-password {
+    padding-top: 20px;
+}
+.register-form-confirmpassword {
+    padding-top: 20px;
+}
+.register-form-submit {
+    padding-top: 20px;
+}
+.register-form-text h2 {
+    width: 67%;
+    font-weight: 600;
+}
+.register-form-firstName .firstName {
+    width: 50%;
+}
+.register-form-lastName .lastName {
+    width: 50%;
+}
+.register-form-email .email {
+    width: 50%;
+}
+.register-form-password .form-password {
+    width: 50%;
+}
+.register-form-confirmpassword .form-confirmpassword {
+    width: 50%;
+}
+/* .register-form-image img {
+    width: 100%;
+} */
+@media (max-width: 767.98px) {
+.register-form-text h2 {
+        width: auto;
+    }
+.register-form-firstName .firstName {
+    width: 80%;
+}
+.register-form-lastName .lastName {
+    width: 80%;
+}
+.register-form-email .email {
+    width: 80%;
+}
+.register-form-password .form-password {
+    width: 80%;
+}
+.register-form-image img {
+    width: 100%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.register-form-text h2 {
+        width: 75%;
+}
+.register-form-image img {
+    width: 100%;
+}
+}
+
+/* Register end */
+
+/* forget password start */
+.forgerPassword-form-main {
+    text-align: center;
+}
+.forgerPassword-form-userName {
+    padding-top: 20px;
+}
+.forgerPassword-form-password {
+    padding-top: 20px;
+}
+.forgerPassword-form-submit {
+    padding-top: 20px;
+}
+.forgerPassword-form-text h2 {
+    width: 83%;
+    font-weight: 600;
+}
+.forgerPassword-form-userName .userName {
+    width: 50%;
+}
+.forgerPassword-form-password .form-password {
+    width: 50%;
+}
+/* .forgerPassword-form-image img {
+    width: 100%;
+} */
+@media (max-width: 767.98px) {
+    .forgerPassword-form-text h2 {
+            width: auto;
+    }
+ .forgerPassword-form-password .form-password {
+     width: 80%;
+ }
+ .register-form-confirmpassword .form-confirmpassword {
+     width: 80%;
+ }
+.forgerPassword-form-image img {
+    width: 100%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .forgerPassword-form-text h2 {
+            width: auto;
+        }
+.forgerPassword-form-image img {
+    width: 100%;
+}
+}
+
+
+/* security start */
+.security-box-main {
+    border: none !important;
+    border-radius: 10px;
+}
+.security-form {
+    width: 100% !important;
+    margin: 0px !important;
+}
+.security-button {
+    text-align: center;
+    padding-top: 20px;
+}
+.security-button button {
+    background: rgb(252, 213, 53);
+    width: 50%;
+    box-shadow: none;
+}
+.security-get-code p {
+    color: rgb(252, 213, 53);;
+}
+.security-enter {
+    margin: 0px !important ;
+}
+
+@media (max-width: 767.98px) {
+.security-box-main {
+        width: 67% !important;
+    }
+}
+
+/* security end */

@@ -1,0 +1,106 @@
+p.matic-percentage {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p.matic-percentage span {
+    color: #03DA66;
+    font-size: 20px;
+    font-weight: 400;
+}
+.matic-scale {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #0070F0;
+}
+p.gwei-cnt {
+    font-size: 20px;
+    font-weight: 400;
+}
+p.detail-trans {
+    font-size: 30px;
+    font-weight: 600;
+}
+.transaction-bottom{
+    border-bottom: 1px solid #0070F0;
+}
+.popBOX.BlockPopup.Transaction{
+    backdrop-filter:none!important;
+}
+p.gasless-para span {
+    color: #0070F0;
+    font-size: 22px;
+    font-weight: 700;
+}
+p.gasless-para {
+    font-size: 20px;
+}
+.tabpanel-bg {
+    background: rgba(255, 255, 255, 0.76) !important;
+    backdrop-filter: blur(65.84379577636719px);
+}
+.tab-head-bg {
+    background: rgba(174, 192, 236, 0.80) !important;
+    color: #000 ;
+    font-weight: 500 !important;
+    /* backdrop-filter: blur(33.3123893737793px); */
+}
+span.MuiTabs-indicator{
+    background: none !important;
+}
+.tab-head .MuiTabs-flexContainer{
+    background: rgba(174, 192, 236, 0.80) !important;
+    padding: 16px;
+    overflow: auto;
+}
+.hash-head {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.tab-head button{
+    background: transparent !important;
+}
+p.voliet-value {
+    color: #6D3AFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+.success-tick {
+    border-radius: 50px;
+    border: 2.259px solid #00FF29;
+    background: linear-gradient(134deg, #0F6 -26.79%, #8B8B8B 230.75%);
+    padding: 0 15px;
+    color: #fff !important;
+}
+p.from-id, .hash-id span {
+    color: #0070F0;
+}
+p.matic-box span {
+    color: #000;
+    border-radius: 7px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.border-line {
+    border-bottom: 2px solid #0070F0;
+}
+.Transaction-detail {
+    margin-top: 50px;
+}
+
+@media(max-width: 767.98px){
+
+    .matic-scale{
+        display: block;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    p.from-id{
+        word-wrap: break-word;
+    }
+    .hash-id p {
+        word-wrap: break-word;
+    }
+}

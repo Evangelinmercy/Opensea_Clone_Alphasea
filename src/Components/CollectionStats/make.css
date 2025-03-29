@@ -1,0 +1,209 @@
+.make-collection-container .Choose-blockchain-title h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Offer-price-titel h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+   color: rgba(18, 18, 18, 05);
+}
+.Offer-price-titel p {
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+}
+.Offer-price-button {
+    border: 1px solid rgba(18, 18, 18, 0.12);
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Offer-price-button fieldset.MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.Offer-price-button span.line {
+    border-right: 1px solid rgba(18, 18, 18, 0.12);
+}
+.Offer-price-button input {
+    border-right:1px solid rgba(18, 18, 18, 0.12);
+    padding: 10px;
+}
+.Offer-price-button button {
+    margin: 0 auto;
+    color: #000;
+}
+.Offer-price-button-two {
+    display: flex;
+    align-items: center;
+    background: aliceblue;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Offer-price-button-two button {
+    color: #000;
+    width: 100%;
+    padding: 10px;
+}
+.Offer-price-button-three button {
+    margin-top: 10px;
+    border: 1px solid rgba(18, 18, 18, 0.12);
+    color: #000;
+    padding: 3px;
+    border-radius: 13px;
+}
+.Offer-price-button-three span button {
+border: none;
+    font-size: 30px;
+    background: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.Offer-price-button-three input.form-control {
+    text-align:center;
+    border: none;
+    width: 100px;
+}
+.make-collection-container-Trait .Trait-heading {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.SearchIcon {
+    position: absolute;
+        top: 22px;
+        left: 12px;
+}
+.Trait-Search {
+    position: relative;
+    padding-top: 12px;
+}
+.Trait-Search input {
+    padding: 6.5px 4px 3.5px 40px !important;
+}
+.Trait-heading h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.make-collection-container-Trait.make-offer {
+    padding-bottom: 20px;
+}
+.Offer-price-button-three {
+    text-align: center;
+}
+.SearchIcon svg {
+    width: 30px;
+    height: 30px;
+    color: rgba(84, 84, 84);
+}
+.Trait-Search .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot {
+    border-radius: 13px;
+}
+.Duration .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot {
+    border-radius: 13px;
+    padding: 10px;
+}
+.Duration {
+    padding-top: 10px;
+}
+.Duration-date-time .MuiStack-root {
+    width: 100%;
+}
+.Duration-date-time .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.Mui-readOnly.MuiInputBase-readOnly{
+    border-radius: 13px;
+}
+.Duration-date-time fieldset.MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.Duration-date-time input{
+    background: aliceblue;
+        color: rgba(84, 84, 84);
+        border-radius: 13px;
+}
+.make-offer {
+    padding-top: 20px;
+}
+.DeGods.make-offer {
+    padding: 16px;
+    border-radius: 10px;
+    border: 5px solid rgba(18, 18, 18, 0.04);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DeGods-image img {
+    width: 50px;
+}
+.DeGods-image {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.DeGods-titel h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.DeGods-heading h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.Make-collection-footer.make-offer button{
+        width: 100%;
+            padding: 10px;
+            border-radius: 13px;
+    opacity: .4;
+}
+.Make-collection-footer-p {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}   
+.Make-collection-footer-p p {
+    color: rgb(84, 84, 84);
+    font-size: 14px;
+}
+.Make-collection-footer-p .SecurityIcon svg {
+    color: rgb(32 129 226);
+    width: 20px;
+    height: 20px;
+}
+
+
+@media  (max-width: 767.98px){
+.Choose-blockchain-box-main {
+        width: 250px !important;
+    }
+}
+
+
+
+
+
+
+.make-collection-container{
+    text-align: right;
+    padding: 12px 4rem;
+}
+.make-collection-container Button{
+    padding:0.75rem 1.5rem;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 129, 226);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 12px;
+    text-transform: capitalize;
+}

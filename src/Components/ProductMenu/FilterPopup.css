@@ -1,0 +1,227 @@
+.filterBtn{
+    color: #FFF !important;
+    font-size: 20.565px !important;
+    font-weight: 400 !important;
+    border-radius: 5.313px;
+    border: 2.656px solid #0065FF;
+    background: linear-gradient(134deg, #0065ff -26.79%, #8B8B8B 230.75%);
+    text-transform: capitalize !important;
+    width: 165px;
+    height: 41px;
+}
+
+.popBOX{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px !important;
+    border-radius: 11.129px !important;
+    border: 0.658px solid rgba(203, 239, 255, 0.16) !important;
+    background:rgb(233 235 237) !important;
+    backdrop-filter: blur(65.84379577636719px) !important;
+    padding: 50px 80px!important;
+}
+.popBOX .cmn-input-cls .MuiInputBase-root{
+    width: 300px !important;
+
+}
+.popBOX .filter-box {
+    display: flex;
+    gap: 15px;
+}
+
+.popBOX .filter-btn button{
+    padding: 8px 19px;
+    gap: 4px;
+    font-size: 0.875rem !important;
+    width: auto;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+/* .popBOX::after{
+    position: absolute;
+    content: "";
+    background-image: url(../../img/closemenu.png);
+    background-repeat: no-repeat;
+    top: -10%;
+    right: 0px;
+    width: 1%;
+    height: 8%;
+    z-index: -1;
+    cursor: pointer;
+} */
+.popBOX .menu{
+    text-align: right;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.popBOX .menu img {
+    width: 30px;
+}
+.popBOX.modelTypo{
+    color: #151515 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.24px;
+    margin-bottom: 18px !important;
+}
+
+.popBOX .start-end-date {
+    margin-bottom: 27px;
+}
+
+.popBOX .start-end-date .MuiStack-root {
+    margin-top: 0px;
+}
+.popBOX .start-end-date > .MuiStack-root {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: -20px;
+}
+.popBOX .start-end-date .MuiStack-root p {
+    text-align: left;
+}
+.popBOX .start-end-date .MuiInputBase-root {
+    background: #1976d2;
+    width: 70%;
+}
+.popBOX .start-end-date input {
+    background: #fff;
+    color: #000 !important;
+    height: 10px;
+}
+.popBOX .start-end-date fieldset {
+    border: none;
+    border-radius: 10px;
+}
+.popBOX .start-end-date svg {
+    fill: #fff !important;
+}
+.listOne, .listTwo, .listThree{
+    display: flex;
+    gap: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popBOX .listTwo{
+    gap: 38px !important;
+}
+.popBOX .listThree{
+    gap: 26px !important;
+}
+.popBOX .listOne .textField input{
+    width: 400px !important;
+}
+.popBOX .listTwo .textField input, .popBOX .listThree .textField input{
+    width: 220px !important;
+}
+.popBOX .warn {
+    padding: 0;
+    margin: 0;
+    margin-top: -37px;
+}
+.popBOX .apply{
+    color: #FFf !important;
+    font-size: 17.492px !important;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize !important;
+    border-radius: 4.519px;
+    border: 2.259px solid #00FF29;
+    background: linear-gradient(134deg, #0F6 -26.79%, #8B8B8B 230.75%);
+    /* box-shadow: 0px 2.25939px 0px 0px #FFF inset, 2.25939px 9.03758px 27.11272px 0px rgba(0, 0, 0, 0.16); */
+    padding: 7px 40px  !important;
+}
+.popBOX .butOutLayer{
+    background: #00FF29;
+    width: fit-content;
+    border: 2.259px solid #00FF29;
+    border-radius: 4.519px;
+    margin: auto !important;
+}
+
+.popBOX .checkBox input.PrivateSwitchBase-input{
+    color: #fff !important;
+}
+
+@media(max-width: 767px) {
+    .popBOX{
+        width:87% !important;
+        bottom: -100px !important;
+        padding: 35px 19px 35px 20px !important;
+        height: 93%;
+    }
+    .popBOX .warn {
+        padding: 0;
+        margin: 0;
+        margin-top: 0px;
+    }
+    .popBOX .start-end-date {
+        margin-bottom: 18px;
+    }
+    .popBOX .listOne, .popBOX .listTwo, .popBOX .listThree{
+        display: inline !important;
+    }
+    .popBOX .start-end-date > .MuiStack-root {
+        display: inline;
+    }
+    .popBOX .start-end-date .MuiStack-root{
+        margin-bottom: 20px;
+    }
+    .popBOX .menu {
+        margin-top: -24px;
+    }
+    .popBOX .start-end-date .MuiInputBase-root {
+        width: 91%;
+    }
+    .popBOX{
+        overflow-x: hidden ;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.popBOX {
+    width: 657px !important;
+    padding: 50px 19px 50px 32px !important;
+}
+.popBOX .listOne .textField input {
+    width: 243px !important;
+}
+.popBOX .listOne, .popBOX .listTwo, .popBOX .listThree {
+    display: flex;
+    gap: 0px;
+}
+.popBOX .start-end-date .MuiInputBase-root {
+    width: 91%;
+}
+.popBOX .listTwo .textField input, .popBOX .listThree .textField input {
+    width: 187px !important;
+}
+.popBOX .listTwo {
+    gap: 0px !important;
+}
+.listThree {
+    gap: 0px !important;
+}
+.modelTypo {
+    font-size: 15px !important;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .popBOX {
+        width: 800px !important;
+        padding: 39px 19px 39px 47px !important;
+    }
+    .popBOX .listOne .textField input {
+        width: 327px !important;
+    }
+    .popBOX .start-end-date .MuiInputBase-root {
+        background: #1976d2;
+        width: 90%;
+    }
+    .popBOX .listOne, .popBOX .listTwo, .popBOX .listThree {
+        display: flex;
+        gap: 9px;
+    }
+}

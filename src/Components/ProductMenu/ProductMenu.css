@@ -1,0 +1,376 @@
+.listbody{
+    padding: 50px 0;
+
+}
+.filter-btn button {
+    padding: 8px 24px;
+    gap: 4px;
+}
+.filter-btn .filterBtn{
+    width: auto;
+    font-size: 0.875rem !important;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.head-bg {
+    background: rgba(174, 192, 236, 0.80) !important;
+    color: #000 !important;
+    text-align: center !important;
+     line-height: 1.2 !important;
+     font-weight: 600 !important;
+}
+.filter-box {
+    display: flex;
+    gap: 20px;
+}
+.tablebody {
+    padding-top: 30px;
+    /* overflow: auto; */
+}
+Table.tableScroll{
+    overflow-x: auto;
+    display: block;
+}
+.save-icon svg {
+    color: #fff;
+}
+.body-bg {
+    background: rgba(255, 255, 255, 0.76);
+    border-bottom: 2px solid #0070F0!important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding: 5px;
+}
+.icon-space {
+    display: flex;
+}
+.filter-btn {
+    margin-top: 60px;
+}
+.filter-color{
+    color: #000 !important;
+}
+
+.contain-width {
+   max-width:93%;
+    margin: 0 auto;
+}
+.filter-filed {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.download-keys {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.save-icon{
+    border: 2px solid #0354CE;
+    padding: 10px;
+    border-radius: 12px;
+    background: #0070F0;
+}
+.print-icon {
+    border: 2px solid #0354CE;
+    padding: 10px;
+    border-radius: 12px;
+    background: #fff;
+}
+.start-end-date.calender-date {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.pagination-numb {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pagination-numb li button{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    
+}
+.pagination-numb ul{
+    border-radius: 10px;
+    background: #FFF;
+    padding: 10px;
+}
+
+ul.product-detail{
+    padding-left: 0 !important;
+}
+ul.product-detail li{
+    list-style: none !important;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.product-head p.product-block {
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: 600;
+}
+.list-item-name{
+    display: flex;
+    gap: 50px;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.cancel-all {
+    margin-top: 30px;
+}
+input#standard-required {
+    border-radius: 6.458px;
+    background: #FFF;
+    box-shadow: 3.84375px 4.84375px 11.30208px 0px rgba(156, 156, 156, 0.48) inset, -4.84375px -4.84375px 11.30208px 0px #FFF inset;
+    padding: 28px;
+    height: 61px;  
+    width: 450px;
+
+}
+
+a.support-link {
+    color: #0070F0;
+}
+.box-bg{
+    border-radius: 11.129px;
+border: 0.658px solid rgba(203, 239, 255, 0.16);
+background-color: rgba(255, 255, 255, 0.76) !important;
+backdrop-filter: blur(65.84379577636719px);
+padding: 14px 70px !important;
+}
+
+.tablebody.tablebodyproduct th, .tablebody.tablebodyproduct td {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.qr-code-pdt img {
+    width: 30px;
+}
+
+.qr-code-pdt {
+    display: flex;
+    align-items: center;
+}
+
+.icon-space.icon-space-buttons {
+    align-items: center;
+}
+
+a.product-info-link {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: #4f4c4c;
+}
+
+.tablebody.tablebodyproduct, .tablebody.tablebodyproduct table {
+    width: 100%;
+    display: table;
+}
+
+.listbody.listbody-pdt-menu {
+    padding-bottom: 0px;
+}
+
+.padding-lr-80px {
+    padding: 0 80px;
+}
+
+.filter-btn.filter-btn-pdt-menu{margin-top: 0px;}
+
+.apicsv-img img {
+    height: 70px;
+}
+
+.apicsv-checkbox {
+    margin: 30px 10px 20px;
+}
+
+.apicsv-img {
+    text-align: center;
+}
+
+.apicsvfile-checkbox-inner {
+    text-align: center;
+}
+
+.apicsvfile-checkbox-inner label.MuiFormControlLabel-root {
+    margin-right: 0px;
+}
+
+.apicsvfile-checkbox-inner label.MuiFormControlLabel-root svg {
+    box-shadow: inset -1px -2px 5px #ccc;
+}
+
+.CloseOption-pop-up {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.CloseOption-pop-up svg {
+    font-size: 30px !important;
+}
+
+.three-steps {
+    text-align: center;
+}
+
+.three-steps > div > span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+p.steps-font-size-weight {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.second-step {
+    padding: 5px 0;
+}
+
+.second-step img {
+    height: 190px;
+}
+
+
+
+
+/* Blockpopup */
+
+.popBOX.BlockPopup {
+    padding: 50px !important;
+    top: 53% !important;
+}
+.popBOX.BlockPopup .menu {
+    text-align: right;
+    margin-top: -36px;
+    margin-bottom: 10px;
+}
+.popBOX.BlockPopup .whole-grid-value{
+    max-width: 800px;
+    margin: auto;
+}
+.popBOX.BlockPopup .item-name p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.popBOX.BlockPopup .cancel-btn{
+    border-radius: 4.519px !important;
+    background: linear-gradient(134deg, #FFB800 -26.79%, #8B8B8B 230.75%);
+    color: #fff !important;
+    border: 2.259px solid #FFD600 !important;
+    padding: 4px 25px !important;
+    text-transform: capitalize;
+    box-shadow: 0px 2.25939px 0px 0px #FFD600 inset, 2.25939px 9.03758px 27.11272px 0px rgba(0, 0, 0, 0.16)
+}
+.popBOX.BlockPopup .product-detail {
+    margin-top: 23px !important;
+    background: none !important;
+    margin: 0;
+    padding: 0;
+}
+.popBOX.BlockPopup ul.product-detail li{
+    list-style: none !important;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.popBOX.BlockPopup span.boxStyle {
+    color:#2b8cff !important;
+    width:10% !important;
+    height:30% !important;
+    background-color: transparent !important;
+    border-bottom: #FFF !important;
+}
+.popBOX.BlockPopup span.boxStyle:hover{
+    background-color: transparent !important;
+}
+.popBOX.BlockPopup span.boxStyle svg.MuiSvgIcon-root{
+    border-color: transparent !important;
+    border-radius: 5.667px !important;
+    background: #FFF !important;
+    box-shadow: 4.25px 4.25px 9.91667px 0px rgba(156, 156, 156, 0.48) inset, -4.25px -4.25px 9.91667px 0px #FFF inset !important;
+}
+.popBOX.BlockPopup span.boxStyle svg.MuiSvgIcon-root defs linearGradient stop{
+    color: #2B8CFF !important;
+}
+.popBOX.BlockPopup .input-box {
+    border-radius: 6.458px;
+    background: #FFF;
+    box-shadow: 4.84375px 4.84375px 11.30208px 0px rgba(156, 156, 156, 0.48) inset, -4.84375px -4.84375px 11.30208px 0px #FFF inset;
+    width: 450px;
+    height: 134px;
+}
+.popBOX.BlockPopup .input-box .MuiFormControl-root.MuiTextField-root{
+    border: 0 !important;
+    outline: 0;
+}
+.popBOX.BlockPopup .disclamer-note p{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.popBOX.BlockPopup .block-btn {
+    border-radius: 4.519px;
+    border: 2.259px solid #FF002E !important;
+    background: linear-gradient(134deg, #FF002E -26.79%, #8B8B8B 230.75%);
+    color: #fff !important;
+    text-transform: capitalize;
+    
+}
+.popBOX.BlockPopup .grid-direct{
+    display: flex !important;
+    align-items: inherit !important;
+    margin-top: 25px;
+}
+
+
+/* Blockpopup */
+
+
+@media (max-width:991.98px){
+    .filter-btn button{
+        margin-top: 10px !important;
+    }
+    input#standard-required{
+        width: auto;
+    }
+    .popBOX.BlockPopup .whole-grid-value {
+        gap: 20px;
+    }
+    .tablebody.tablebodyproduct, .tablebody.tablebodyproduct table{display: block;}
+    .padding-lr-80px {
+        padding: 0 15px;
+    }
+    .responsive-style-block > .MuiBox-root {
+        width: 75%;
+    }
+    .responsive-style-block > .MuiBox-root {
+        width: 85%;
+        padding: 10px;
+    }
+    .second-step img {
+        height: 90px;
+    }
+    .filter-btn.filter-btn-pdt-menu .filter-filed button {
+        padding: 6px 8px !important;
+    }
+    /* .responsive-style-block > .MuiBox-root {
+        height: 70vh;
+        overflow: auto;
+    } */
+}

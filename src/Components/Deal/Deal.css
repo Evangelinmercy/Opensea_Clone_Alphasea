@@ -1,0 +1,144 @@
+body {
+	align-items: center;
+	justify-content: center;
+}
+
+/* $animationSpeed: 40s; */
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+.alphasea-deal-page .slider {
+	/* height: 100px; */
+	margin: auto;
+	overflow-x:hidden;
+	position: relative;
+	width: auto;
+    padding-top: 3.5rem;
+	padding-bottom: 65px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.alphasea-deal-page .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    
+    flex: 0 0 auto;
+    display: flex;
+    min-width: auto;
+    margin: 0px 12px;
+
+}
+
+.alphasea-deal-page .slide {
+    height: 100px;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(18, 18, 18, 0.04);
+    border-radius: 24px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px 12px;
+    /* max-width: 328px; */
+    max-width: 350px;
+    /* padding: 20px; */
+    padding: 50px;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    border-radius: 42px;
+    padding: 32px;
+    max-width: 488px;
+    height: 100%;
+}
+.alphasea-deal-page .Deal-img1 img{
+    border-radius: 16px ;
+    width: 160px;
+    height: 160px;
+    background-color: none !important;
+}
+.alphasea-deal-page .center-handshake svg{
+    font-size: 46px !important;
+    background-color: rgb(179, 179, 179);
+    border-radius: 50%;
+    padding: 11px !important;
+}
+.alphasea-deal-page .center-handshake{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.btm-deal-section{
+    text-align: center;
+}
+.alphasea-deal-page .btm-deal-section .head{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -2px;
+    margin-top: 2.5rem;
+}
+.alphasea-deal-page .head-body-2 h2{
+    font-size: 24px !important;
+    line-height: 1.5;
+    font-weight: 400 !important;
+    color: rgb(84, 84, 84) !important;
+}
+.alphasea-deal-page .head-body-2{
+    margin:20px 0 2.5rem;
+}
+.alphasea-deal-page .searching-deal{
+    max-width: 650px;
+    width: 100%;
+   margin: auto;
+   padding-bottom: 240px;
+}
+.alphasea-deal-page .searching-deal-outer-layer{
+    border-radius: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 8px;
+}
+.alphasea-deal-page .double-inner-layer{
+    border: none;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 32px 0px;
+    height: 100%;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+.alphasea-deal-page .double-inner-layer svg{
+    background: rgba(18, 18, 18, 0.04);
+    border-radius: 16px;
+    color: rgb(84, 84, 84);
+    padding: 14px 16px;
+    margin-right: 16px;
+    font-size: 53px !important;
+}
+.alphasea-deal-page input#standard-search {
+    width: 508px;
+}
+
+@media (max-width: 767.98px) {
+    .alphasea-deal-page .Deal-img1 img{
+        border-radius: 16px ;
+        width: 160px;
+        height: 160px;
+        background-color: none !important;
+    }
+    .alphasea-deal-page .btm-deal-section .head{
+        font-size: 48px;
+        margin-top: 0 !important;
+    }
+    .alphasea-deal-page .btm-deal-section {
+        text-align: left;
+        margin: 0 20px;
+    }
+    .alphasea-deal-page .head-body-2 h2{
+        font-size: 16px !important;
+        margin: 8px 0 1.5rem !important;
+    }
+}

@@ -1,0 +1,1572 @@
+.explore-body-content {
+    background: #fff;
+    padding: 30px 64px 60px 64px;
+    border-radius: 20px;
+}
+.Choose-blockchain-box-main:focus-visible{
+    border: 0 !important;
+    outline: none !important;
+}
+.flex-box-all-chains-view-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-chains-view-all {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 32%;
+}
+
+a.view-all-btn-style {
+    display: flex;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 11px 24px;
+    font-size: 16px;
+    background-color: rgba(18, 18, 18, 0.04);
+    height: 36px;
+    align-items: center;
+    color: #373737;
+    border-radius: 12px;
+    height: 52px;
+}
+
+.all-chains-view-all .MuiSelect-select{text-align: left;
+    background-color: #f6f6f6;
+    padding: 14.5px 14px;
+    border-radius: 12px;
+}
+    .all-chains-view-all .MuiSelect-select:hover{
+        background-color: #ececec !important;
+    }
+/* .all-chains-view-all .MuiInputBase-root:hover fieldset, .all-chains-view-all .MuiInputBase-root:hover input{border: 1px solid #000;} */
+
+.explore-body-content > .MuiBox-root {
+    position: relative;
+}
+
+.MuiTabs-root.inner-tabs.inner-tabs-top {
+    position: absolute;
+    top: 0px;
+    left: 59%;
+    margin-left: -55px;
+}
+
+.MuiTabs-root.inner-tabs.inner-tabs-trend {
+    position: absolute;
+    top: 0px;
+    left: 38%;
+    margin-left: 34px;
+}
+
+.MuiTabs-root.inner-tabs.inner-tabs-top button.MuiButtonBase-root, .MuiTabs-root.inner-tabs.inner-tabs-trend button.MuiButtonBase-root {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 45px;
+    z-index: 1;
+    border: none;
+    border-radius: 10px;
+    color: rgb(84, 84, 84) !important;
+    background-color: transparent !important;
+    margin: 0px;
+    padding: 0px 12px;
+    transition: all 0.3s ease 0s;
+}
+.MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer button.Mui-selected, .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer button.Mui-selected {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+    color: rgb(18, 18, 18);
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 10px);
+}
+.MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer, .MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer {
+    gap: 15px;
+}
+.MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer, .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer{
+    background-color: rgba(18, 18, 18, 0.04);
+    border-radius: 12px;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+    min-height: 48px;
+}
+
+div.lr-padding-remove > .MuiBox-root {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0;
+}
+
+.collections-img img {
+    width: 80px;
+}
+
+.collections-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.collections-outer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 24px;
+}
+
+.collections-outer span {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 600;
+}
+
+.volume-rate-outer span {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.explore-cllection-slide {
+    margin: 40px 0 55px;
+}
+
+table.MuiTable-root th, table.MuiTable-root td {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.owl-theme .owl-nav button.owl-prev {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    margin-top: 0;
+    opacity: 1 !important;
+    height: 100%;
+    width: 40px;
+    border-radius: 12px;
+    margin-left: -14px;
+
+}
+.owl-theme .owl-nav button.owl-prev:hover {
+    background: rgba(18, 18, 18, 0.4);
+}
+
+.owl-theme .owl-nav button.owl-prev span, .owl-theme .owl-nav button.owl-next span {
+    font-size: 68px;
+}
+
+.owl-theme .owl-nav button.owl-next {
+    position: absolute;
+    right: -32px;
+    top: 0;
+    margin-top: 0;
+    opacity: 1 !important;
+    height: 100%;
+    width: 40px;
+    border-radius: 12px;
+    margin-right: -14px;
+}
+
+.explore-notable-cllection-slide h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #000;
+    font-size: 30px;
+}
+
+.explore-notable-cllection-slide h2 {
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: #000;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.overlay-with-collection-details h4 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+a.collection-cover-link {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.overlay-with-collection-details h4, .overlay-with-collection-details span {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    top: -20px;
+    left: 10px;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.overlay-with-collection-details span {
+    font-size: 14px;
+    line-height: 20px;
+    font-size: 400;
+}
+
+.overlay-with-collection-details {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000091;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+a.notable-collection-item {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 0px solid #e4e4e4;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 16px;
+    transition: box-shadow 0.25s ease-in-out 0s, transform 0.25s ease 0s;
+}
+
+a.notable-collection-item .cover-photo-for-collection-detail {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a.notable-collection-item .cover-photo-for-collection-detail h4 {
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+}
+
+.floor-vol-rate-block {
+    display: flex;
+    padding: 0 10px 10px 10px;
+    justify-content: space-between;
+}
+
+.vol-rate-note, .floor-rate-note {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    color: #000;
+}
+
+.vol-rate-note label, .floor-rate-note label {
+    font-size: 14px;
+    color: #7a7777;
+}
+
+.vol-rate-note span, .floor-rate-note span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*** Colection Detail CSS ***/
+
+.ProfileContent.collection-detail-page .profile-img-inner {
+    border-radius: 10px;
+}
+
+.ProfileContent.collection-detail-page .profile-img {
+    border-radius: 20px;
+}
+
+.collection-created-by {
+    padding-left: 80px;
+    text-align: left;
+}
+
+.collection-created-by {
+    font-size: 16px;
+    color: #000;
+    margin: 5px 0 20px;
+}
+
+span.created-by {
+    font-weight: 600;
+}
+
+span.total-item-result {
+    font-size: 18px;
+}
+
+.filter-head-block {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    background: #ececec;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.filter-head-block svg {
+    position: relative;
+    top: -1px;
+}
+
+.status-options button {
+    background-color: rgba(18, 18, 18, 0.04);
+    color: #000;
+    box-shadow: none !important;
+    text-transform: none;
+    border-radius: 12px;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+.status-options button:hover{color: #fff !important;}
+
+.status-options {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-options-collections div#filter-sidebar h3 {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+.filter-options-collections div#filter-sidebar h3 svg {
+    font-size: 16px;
+}
+
+.product-item-img img {
+    width: 100%;
+    min-height: 337px;
+}
+
+div#containwidth-pdt-collection-items {
+    gap: 0px;
+    align-items: self-start;
+}
+
+div#containwidth-pdt-collection-items div#filter-id-pdts {
+    padding: 0px;
+    gap: 0px;
+    margin-top: 50px;
+}
+
+div#containwidth-pdt-collection-items div#filter-id-pdts > .MuiGrid-root.MuiGrid-item {
+    padding: 0 15px;
+}
+
+div#containwidth-pdt-collection-items div#filter-id-pdts .product-item {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: -1px -1px 5px #ccc;
+}
+
+.pdt-name-price h4.pdt-name {
+    margin: 0px;
+    text-align: left;
+    font-size: 18px;
+    color: #757272;
+}
+
+span.pdt-price {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.pdt-name-price {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+div#containwidth-pdt-collection-items div#filter-id-pdts .product-item button {
+    text-transform: none;
+    font-size: 16px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%);
+}
+
+div#containwidth-pdt-collection-items div#filter-id-pdts .product-item:hover button {
+    transform: translateY(0);
+}
+
+div#containwidth-pdt-collection-items div#filter-id-pdts .product-item{cursor: pointer;}
+
+.label-block-outer {
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+}
+
+.label-block-outer span {
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.collection-detail-row {
+    margin-bottom: 30px;
+}
+
+.label-block-outer.column-dir {
+    flex-direction: column;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.label-block-outer.column-dir span {
+    margin-left: 0px;
+    font-size: 22px;
+}
+
+.label-block-outer.column-dir label {
+    text-transform: capitalize;
+}
+
+.description-data p{
+    padding: 0 80px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 16px;
+    max-width: 900px;
+    color: #000;
+}
+
+.tiles-block {
+    display: flex;
+    /* padding: 5px 20px !important; */
+    justify-content: space-between;
+    border-radius: 20px !important;
+}
+
+.tile-design img {
+    width: 30px;
+}
+
+.tile-design {
+    width: 30%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+    z-index: 1;
+    border: none;
+    border-radius: 10px;
+    color: rgb(84, 84, 84);
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.ProfileContent.collection-detail-page .profile-img-outer, .ProfileContent.collection-detail-page .profile-details-name, .ProfileContent.collection-detail-page .collection-created-by, .ProfileContent.collection-detail-page .description-data p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.minheightdiffer img {
+    min-height: 158px;
+}
+
+.product-col-block {
+    padding-left: 20px;
+}
+
+.productdetail-redirect{text-decoration: none;}
+
+.flex-box-all-chains-view-all {
+    position: relative;
+}
+.ProfileContent .grid-three-spacing .tiles-block {
+    border-radius: 12px !important;
+    width: 100%;
+    padding-right: 24px;
+    padding-left: 10px;
+}
+.flex-box-all-chains-view-all.flex-box-all-chains-view-all-explore {
+    border-bottom: none !important;
+    position: relative;
+}
+.flex-box-all-chains-view-all.flex-box-all-chains-view-all-explore {
+    padding: 0px !important;
+}
+
+@media (max-width:991.98px){
+    .rankingThead.collect {
+        text-align: left;
+        margin-left: 43px;
+    }
+    .flex-box-all-chains-view-all.MuiBox-root .outer-tabs {
+        overflow: visible !important;
+        width: max-content;
+        justify-content: center;
+    }
+    .explore-ranking-Table a.view-all-btn-style {
+        padding: 0.625rem 0.75rem;
+        height: 53px !important;
+    }
+    .padding-none-lr .MuiBox-root {
+        padding: 24px 10px;
+    }
+    .all-chains-view-all {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+
+    .explore-cllection-slide {
+        margin: 20px 0;
+    }
+
+    .explore-body-content {
+        /* margin: 20px; */
+        background: #fff;
+        /* padding: 30px 15px; */
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+
+    .MuiTabs-root.inner-tabs.inner-tabs-top, .MuiTabs-root.inner-tabs.inner-tabs-trend {
+        position: relative;
+        top: 16px;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .flex-box-all-chains-view-all {
+        flex-direction: column;
+    }
+    .explore-notable-cllection-slide h2 {
+        font-size: 25px;
+    }
+    
+    .product-item-img img {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .product-col-block {
+        padding-left: 0;
+    }
+    .display-none{
+        display: none !important;
+    }
+    .sm-d-block{
+        display: block;
+    }
+}
+
+@media (max-width:1199.98px){
+
+    .tiles-block{display: none;}
+
+    .display-none{
+        display: none !important;
+    }
+    .sm-d-block{
+        display: block !important;
+    }
+
+}
+
+
+/* shalomy styles */
+
+.collection-cover-link img{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+.collection-cover-link:hover img {
+    transform: scale(1.1);
+  }
+
+  .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #000;
+    width: 116px;
+    text-transform: capitalize;
+}
+.flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer{
+    background-color: rgba(18, 18, 18, 0.04);
+    border-radius: 12px;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+    min-height: 48px;
+}
+
+.flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button{
+    color: #5e5e5e;
+    z-index: 1;
+    border: none;
+    border-radius: 10px;
+    color: rgb(84, 84, 84);
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px 12px;
+    transition: all 0.3s ease 0s;
+    text-transform: capitalize;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    color: transparent;
+}
+a.view-all-btn-style:hover {
+    background-color: #ececec !important;
+}
+fieldset.MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.MuiFormControl-root label.MuiFormLabel-root{
+    color: #373737;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+div#containwidth-pdt-collection-items label.Mui-focused{
+    background: white;
+    padding: 2px 4px;
+    
+}
+.explore-cllection-slide:hover .owl-theme .owl-nav [class*=owl-]{
+    color: #000;
+}
+.explore-notable-cllection-slide .item:hover {
+    transform: translate(0, -10px);
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12); */
+}
+
+.explore-notable-cllection-slide .owl-carousel .owl-stage-outer {
+    padding: 10px 0 ;
+}
+.owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag:hover .owl-theme .owl-nav button.owl-prev, .owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag:hover .owl-theme .owl-nav button.owl-next{
+    background: rgba(18, 18, 18, 0.4) !important;
+}
+.owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag:hover .owl-theme .owl-nav [class*=owl-]{
+    color: #FFF ;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: rgba(18, 18, 18, 0.08) !important;
+}
+.explore-notable-cllection-slide .owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag:hover button.owl-prev, .explore-notable-cllection-slide .owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag:hover button.owl-next{
+    color: #000 !important;
+}
+/* .explore-notable-cllection-slide button.owl-prev:hover, .explore-notable-cllection-slide button.owl-next:hover{
+    color: #fff !important;
+} */
+.explore-notable-cllection-slide .owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag button.owl-prev:hover, .explore-notable-cllection-slide .owl-carousel.owl-theme.owl-carousel.owl-loaded.owl-drag button.owl-next:hover {
+    background: rgba(18, 18, 18, 0.08) !important;
+}
+.rankingThead span{
+font-size: 14px;
+}
+.rankingThead{
+    /* padding-left: 1rem !important; */
+    padding-bottom: 0.75rem !important;
+    padding-top: 0 !important;
+}
+.firstContain{
+    border-bottom: 1px solid #1212121f !important;
+    margin-bottom: 20px;
+}
+.bodyRow{
+    padding: 15px 16px;
+    margin-bottom: 10px;
+}
+.ranking, .volume-rate{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.ranking{
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+.MuiGrid-root.MuiGrid-item {
+    justify-content: flex-start;
+}
+.firstContain .MuiGrid-root.MuiGrid-item{
+padding-left: 0;
+} 
+
+.bodyRow{
+    cursor: pointer;
+}
+.bodyRow .MuiGrid-root.MuiGrid-item{
+padding-left: 0;
+}
+.volume-rate-outer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.bodyRow:hover {
+background-color:rgba(18, 18, 18, 0.04);
+border-radius: 10px;
+}
+.collections-outer, .ranking-outer{
+    padding-top: 0 !important;
+}
+.explore-ranking-Table .lr-padding-remove .MuiBox-root {
+    padding-bottom: 0 !important;
+}
+
+.SubPages ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+    padding: 0;
+}
+li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+}
+li.ActiveMenu, li.menu:hover{
+    background: rgb(90 84 84 / 12%) !important;
+    border-radius: 9px;
+}
+li.ActiveMenu a, li.menu a:hover{
+    color: rgb(18, 18, 18) !important;
+}
+li.menu{
+    background: transparent;
+    display: flex;
+    padding: 8px 16px;
+    width: fit-content;
+    cursor: pointer;
+}
+li.menu a{
+    color: rgb(84, 84, 84);
+}
+.offer-price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3%;
+    padding-left:40px;
+}
+.filter-list-flex{
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.filter-left-Align{
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+    display: flex;
+}
+.total-item-result{
+    margin-left: 16px;
+    /* margin-right: 12px; */
+}
+.w-full{
+    width: 60%;
+    /* margin-left: 12px; */
+}
+.priceList {
+    width: 250px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 16px !important;
+}
+.titles-tab{
+    width: fit-content;
+    padding-left: 16px !important;
+}
+.ProfileContent .tiles-block {
+    border-radius: 12px !important;
+}
+.simple-select-form{
+    border: 1px solid rgba(18, 18, 18, 0.12) !important;
+    border-radius: 12px;
+    min-height: fit-content;
+    height: 49px !important;
+    margin-bottom: -1px !important;
+}
+.priceList .MuiInputBase-formControl:hover{
+    height: 49px !important;
+    margin-bottom: -1px !important;
+}
+.ProfileContent.collection-detail-page .SubPages {
+    margin: 0 40px;
+    border-bottom: 1px solid #ececec;
+    padding:0  0 1rem;
+}
+.ProfileContent.collection-detail-page li.menu {
+    padding: 12px 24px;
+}
+  /* shalomy styles */
+
+  .explore-notable-cllection-slide.nft{
+    margin-top: 1.5rem;
+  }
+
+  .nft a.notable-collection-item {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: none !important;
+    border: 1px solid rgba(18, 18, 18, 0.1) !important;
+    transition: none !important;
+}
+
+.explore-notable-cllection-slide .nft .item:hover{
+    transition: none !important;
+    transform: none !important;
+    /* border: 1px solid rgba(18, 18, 18, 0.32); */
+    transition: border 0.25s ease-in-out 0s !important;
+    border-radius: 20px;
+}
+.nft .cover-photo-for-collection-detail{
+    padding: 16px;
+}
+.nft a.notable-collection-item .cover-photo-for-collection-detail h4{
+    height: 48px;
+    padding: 0;
+    max-width: 224px;
+}
+.nft .floor-vol-rate-block{
+    display: none;
+}
+.nft .cover-photo-for-collection img {
+    height: 302px;
+}
+.nft.explore a.notable-collection-item .cover-photo-for-collection-detail h4{
+    height: auto;
+    padding: 0;
+    max-width: 224px;
+}
+
+
+
+
+
+
+
+
+
+/* Make colllection offer  */
+
+.make-collection-container-Button .Choose-blockchain-title h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Offer-price-titel h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+   color: rgba(18, 18, 18, 05);
+}
+.Offer-price-titel p {
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    color: rgb(84, 84, 84);
+}
+.Offer-price-button {
+    border: 1px solid rgba(18, 18, 18, 0.12);
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Offer-price-button fieldset.MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.Offer-price-button span.line {
+    border-right: 1px solid rgba(18, 18, 18, 0.12);
+}
+.Offer-price-button input {
+    border-right:1px solid rgba(18, 18, 18, 0.12);
+    padding: 10px;
+}
+.Offer-price-button button {
+    margin: 0 auto;
+    color: #000;
+}
+.Offer-price-button-two {
+    display: flex;
+    align-items: center;
+    background: aliceblue;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Offer-price-button-two button {
+    color: #000;
+    width: 100%;
+    padding: 10px;
+}
+.Offer-price-button-three button {
+    margin-top: 10px;
+    border: 1px solid rgba(18, 18, 18, 0.12);
+    color: #000;
+    padding: 3px;
+    border-radius: 13px;
+}
+.Offer-price-button-three span button {
+border: none;
+    font-size: 30px;
+    background: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.Offer-price-button-three input.form-control {
+    text-align:center;
+    border: none;
+    width: 100px;
+}
+.make-collection-container-Trait .Trait-heading {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.SearchIcon {
+    position: absolute;
+        top: 22px;
+        left: 12px;
+}
+.Trait-Search {
+    position: relative;
+    padding-top: 12px;
+}
+.Trait-Search input {
+    padding: 6.5px 4px 3.5px 40px !important;
+}
+.Trait-heading h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.make-collection-container-Trait.make-offer {
+    padding-bottom: 20px;
+}
+.Offer-price-button-three {
+    text-align: center;
+}
+.SearchIcon svg {
+    width: 30px;
+    height: 30px;
+    color: rgba(84, 84, 84);
+}
+.Trait-Search .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot {
+    border-radius: 13px;
+}
+.Duration .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot {
+    border-radius: 13px;
+    padding: 10px;
+}
+.Duration {
+    padding-top: 10px;
+}
+.Duration-date-time .MuiStack-root {
+    width: 100%;
+}
+.Duration-date-time .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.Mui-readOnly.MuiInputBase-readOnly{
+    border-radius: 13px;
+}
+.Duration-date-time fieldset.MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.Duration-date-time input{
+    background: aliceblue;
+        color: rgba(84, 84, 84);
+        border-radius: 13px;
+}
+.make-offer {
+    padding-top: 20px;
+}
+.DeGods.make-offer {
+    padding: 16px;
+    border-radius: 10px;
+    border: 5px solid rgba(18, 18, 18, 0.04);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DeGods-image img {
+    width: 50px;
+}
+.DeGods-image {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.DeGods-titel h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.DeGods-heading h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.Make-collection-footer.make-offer button{
+        width: 100%;
+            padding: 10px;
+            border-radius: 13px;
+    opacity: .4;
+}
+.Make-collection-footer-p {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}   
+.Make-collection-footer-p p {
+    color: rgb(84, 84, 84);
+    font-size: 14px;
+}
+.Make-collection-footer-p .SecurityIcon svg {
+    color: rgb(32 129 226);
+    width: 20px;
+    height: 20px;
+}
+
+@media  (max-width: 767.98px){
+/* .Choose-blockchain-box-main {
+        width: 250px !important;
+    } */
+    .dashboard-page .explore-cllection-slide{
+        display: block; 
+    }
+    .SubPages{
+        overflow: hidden;
+        /* padding: 12px 16px 0px; */
+        width: 100%;
+        margin-right: 20px;
+    }
+    .SubPages ul{
+        overflow-x: scroll;
+        padding: 30px 0 10px;
+        margin: 0;
+        &::-webkit-scrollbar {
+            height: 0 !important;
+          }
+        }
+    .explore-cllection-slide .owl-nav{
+        display: none;
+    }
+    /* .all-chains-view-all .all-chain-form-desktop-view{
+        display: none;
+    } */
+    .flex-box-all-chains-view-all.MuiBox-root{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+    .flex-box-all-chains-view-all.MuiBox-root .outer-tabs {
+        overflow: visible !important;
+        width: max-content;
+        justify-content: center;
+    }
+    .all-chains-view-all{
+        margin-top: 0;
+    }
+    .explore-ranking-Table a.view-all-btn-style{
+    padding: 0.625rem 0.75rem;
+    height: 53px !important;
+    }
+    .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected{
+        width: auto !important;
+    }
+    /* .all-chain-form-sm-view{
+        display: block !important;
+    } */
+
+    .sub-tables{
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .firstContain {
+        width: 560px !important;
+    }
+    .Table-overflow{
+        overflow: hidden;
+    }
+    .padding-none-lr{
+        padding: 0 !important;
+    }
+    .padding-none-lr .MuiBox-root{
+    padding: 24px 10px;
+    }
+    .collections-img img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    .bodyRow{
+        align-items: center;
+    }
+    .collections-outer span {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .display-none{
+        display: none !important;
+    }
+    .sm-d-block{
+        display: block;
+    }
+    .dashboard-page .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiMenu-paper.MuiPopover-paper.MuiMenu-paper{
+        top: none !important;
+        left: 0;
+        width: 100%;
+        }
+}
+
+.all-chain-form-sm-view{
+    display: none !important;
+}
+.sm-d-block{
+    display: none;
+}
+
+.make-collection-container-Button{
+    text-align: right;
+    padding: 12px 4rem !important;
+    transform: translateY(0%) translateZ(0px);
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgba(18, 18, 18, 0.08);
+    bottom: 0px;
+    display: flex;
+    left: 0px;
+    right: 0;
+    position: fixed;
+    /* transform: translateY(100%); */
+    /* width: 100%; */
+    -webkit-box-pack: center;
+    justify-content: flex-end;
+    z-index: 100;
+}
+.make-collection-container-Button Button{
+    padding:0.75rem 1.5rem;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 129, 226);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 12px;
+    text-transform: capitalize;
+}
+.make-collection-container-Button Button:hover{
+    background-color: rgb(46, 141, 238);
+}
+.make-collection-container-Button .Choose-blockchain-box-main .Choose-blockchain-title h4{
+padding-bottom: 0 !important;
+}
+.Choose-blockchain-title svg {
+    width: 23px;
+    height: 23px;
+    /* cursor: pointer; */
+}
+.Choose-blockchain-box.collection-offer{
+    overflow-y: visible !important;
+    height: initial !important;
+    padding-right: 0 !important;
+}
+/* Make colllection offer  */
+
+/* Anbu */
+
+.Table-overflow.mobile-response {
+    display: none;
+}
+@media (max-width: 767.98px) {
+    .Table-overflow.desktop {
+            display: none;
+        }
+.Table-overflow.mobile-response {
+     display: block;
+ }
+ .sm-d-block {
+     text-align: center;
+ }
+ .collections-outer-span-mobile {
+     display: flex;
+     align-items: baseline;
+     flex-direction: column;
+ }
+ .collections-outer {
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     gap: 10px;
+ }
+ .bodyRow {
+     align-items: center;
+     padding-left: 0px;
+     padding-right: 0px;
+     justify-content: space-between;
+ }
+ .collections-outer span {
+     font-size: 13px !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+ .firstContain {
+     width: auto !important;
+ }
+ .collections-outer-span-mobile-two {
+     display: flex;
+     align-items: center;
+ }
+ .collections-outer-span-mobile-two span p {
+     font-size: 12px;
+    margin: 0px;
+ }
+  .collections-outer-span-mobile-two span  {
+      /* font-size: 12px; */
+  }
+.volume-rate.ranking {
+    font-size: 13px;
+    white-space: nowrap;
+}
+.rankingThead {
+    text-align: center;
+}
+div#table123 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 220%;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.Table-overflow.mobile-response {
+    overflow-x: scroll;
+    margin-bottom: 40px;
+}
+/* .all-chains-view-all.desktop-chain-shown .MuiFormControl-root.MuiFormControl-fullWidth.all-chain-form-desktop-view {
+    display: none;
+} */
+}
+
+
+
+
+/* CollectionDetailContent */
+.ProfileContent.collection-detail-page .profile-image-banner .profile-img {
+    border: 6px solid #ede7e7 ;
+    width: 180px;
+    height: 180px;
+}
+.ProfileContent.collection-detail-page .profile-details-name{
+    margin-top: 100px;
+}
+.ProfileContent.collection-detail-page .collection-list-items {
+    display: flex;
+    gap: 7%;
+    padding: 0 40px;
+}
+.ProfileContent.collection-detail-page .profile-image-banner .profile-img{
+    display: block;
+}
+.ProfileContent.collection-detail-page .description-data p{
+    /* padding: 0 !important; */
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    color: rgb(53, 56, 64);
+}
+.ProfileContent.collection-detail-page .see-more-description{
+    padding: 0px 32px;
+}
+.ProfileContent.collection-detail-page .less p{
+    display: inherit;
+    padding: 0 40px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 16px;
+    max-width: 900px;
+    color: #000;
+}
+.ProfileContent.collection-detail-page .owners, .ProfileContent.collection-detail-page .eth{
+    display: flex;
+    gap: 3%;
+}
+.ProfileContent.collection-detail-page .offer-price.sm-device{
+    display: none;
+}
+.ProfileContent.collection-detail-page .profile-banner:hover button#image-upload-button-banner{
+    display: none !important;
+}
+.ProfileContent.collection-detail-page .see-more-description button {
+    color:rgb(53, 56, 64);
+}
+.ProfileContent.collection-detail-page .profile-image-banner{
+    overflow: visible !important;
+}
+.profile-img{
+    position: relative !important;
+}
+.ProfileContent.collection-detail-page .profile-details-name {
+    margin-top: 125px;
+}
+@media (max-width: 991.98px){
+.ProfileContent.collection-detail-page .profile-image-banner .profile-img {
+width: 90px;
+height: 90px;
+}
+.bodyRow{
+    align-items: center;
+}
+.collections-outer {
+    gap: 10px;
+}
+.collections-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.MuiTabs-root.inner-tabs.inner-tabs-trend{
+    top: 16px;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiMenu-paper.MuiPopover-paper.MuiMenu-paper{
+    bottom: 0 !important;
+    width: 100% !important;
+    max-height: none !important;
+}
+.ProfileContent.collection-detail-page .profile-img-outer{
+    margin-top: 21px;
+}
+.ProfileContent.collection-detail-page .profile-details-name, .ProfileContent.collection-detail-page .collection-created-by{
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+}
+.ProfileContent.collection-detail-page .collection-list-items {
+    display: flex;
+    gap: 13%;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.ProfileContent.collection-detail-page .description-data p{
+    padding-left:0 !important;
+}
+.ProfileContent.collection-detail-page .label-block-outer {
+    font-size: 14px;
+}
+.ProfileContent.collection-detail-page  .offer-price, .ProfileContent.collection-detail-page  .see-more-description{
+    padding-left: 0 ;
+}
+.ProfileContent.collection-detail-page .owners, .ProfileContent.collection-detail-page .eth{
+    display: flex;
+    justify-content: space-between;
+}
+.ProfileContent.collection-detail-page .offer-price{
+    display: inline;
+}
+.ProfileContent.collection-detail-page .offer-price.sm-device{
+    display: block;
+    margin-top: 20px;
+}
+.ProfileContent.collection-detail-page .offer-price.desktop-responsive, .ProfileContent.collection-detail-page .total-item-result{
+    display: none;
+}
+.ProfileContent.collection-detail-page .label-block-outer.column-dir span {
+    font-size: 16px;
+}
+.ProfileContent.collection-detail-page .label-block-outer.column-dir label{
+    font-size: 12px;
+}
+.ProfileContent.collection-detail-page .label-block-outer.column-dir{
+    margin-top: 7px ;
+}
+.ProfileContent.collection-detail-page .filter-list-flex{
+    padding: 0px;
+}
+.ProfileContent.collection-detail-page .priceList {
+    width: auto;
+    padding-left: 0 !important;
+}
+.ProfileContent.collection-detail-page .filter-list-flex{
+    gap: 10px;
+}
+.ProfileContent.collection-detail-page .SubPages {
+    padding-bottom: 0px !important;
+}
+.ProfileContent.collection-detail-page .collection-detail-row {
+    margin-bottom: 12px;
+}
+.ProfileContent.collection-detail-page .filter-options-collections{
+    padding-left: 0px !important;
+}
+.ProfileContent.collection-detail-page div#containwidth-pdt-collection-items div#filter-id-pdts {
+    margin-top: 20px;
+    padding-left: 0px !important;
+}
+ .ProfileContent.collection-detail-page .product-col-block{
+    padding:0px !important
+}
+.ProfileContent.collection-detail-page span.pdt-price{
+    white-space: nowrap;
+}
+.ProfileContent.collection-detail-page .see-more-description Button{
+    font-size: 14px !important;
+    color: rgb(53, 56, 64);
+    text-transform: capitalize;
+    padding-left: 0 !important;
+}
+.ProfileContent.collection-detail-page .idContent{
+    height: 18px !important;
+}
+.ProfileContent.collection-detail-page .make-collection-container-Button{
+    padding: 0 10px !important;
+}
+.ProfileContent.collection-detail-page .less p{
+    padding: 0 !important;
+}
+.ProfileContent.collection-detail-page .make-collection-container-Button Button{
+    width: 100% !important;
+}
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiMenu-paper.MuiPopover-paper.MuiMenu-paper {
+    height: -webkit-fill-available;
+} */
+.ProfileContent.collection-detail-page .w-full {
+    width: 91%;
+}
+}
+@media (min-width: 768px)and (max-width: 991.98px){
+    .collections-outer span {
+        font-size: 14px;
+    }
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-sm-2.MuiGrid-grid-md-2.MuiGrid-grid-lg-2.MuiGrid-grid-xl-2.ranking, .volume-rate.ranking, .volume-rate-outer span{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+    .ProfileContent.collection-detail-page .profile-image-banner .profile-img {
+        width: 120px;
+        height: 120px;
+        }
+        .ProfileContent.collection-detail-page .profile-img-inner{
+            width: 112px !important;
+            height: 112px !important;
+        }
+        .ProfileContent.collection-detail-page .profile-img-inner img.img-display-before{
+            width: 110px !important;
+            height: 110px !important;
+        }
+        .ProfileContent.collection-detail-page .profile-img-outer {
+            margin-top: 0px;
+        }
+        .ProfileContent.collection-detail-page .profile-details-name{
+            margin-top: 17px !important;
+        }
+        .ProfileContent.collection-detail-page .collection-list-items {
+            gap: 6%;
+        }
+        .ProfileContent.collection-detail-page .offer-price.sm-device{
+            display: none !important;
+        }
+        .dashboard-page.profile-page-main .ProfileContent .SubPages{
+            margin: 0 !important;
+        }
+        .ProfileContent.collection-detail-page .offer-price.desktop-responsive{
+            display: flex !important;
+        }
+}
+@media (min-width: 992px)and (max-width: 1199.98px){
+    .ProfileContent.collection-detail-page .profile-img-outer {
+        margin-top: -285px !important;
+    }
+    .ProfileContent.collection-detail-page .profile-details-name {
+        margin-top: 98px !important;
+    }
+    .ProfileContent.collection-detail-page  .profile-img-outer{
+        display: inline-block;
+    }
+    .MuiTabs-root.inner-tabs.inner-tabs-trend {
+        left: 31%;
+    }
+    .all-chains-view-all {
+        width: 29%;
+    }
+    a.view-all-btn-style {
+        height: 52px;
+    }
+    .collections-outer span {
+        font-size: 14px;
+    }
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-sm-2.MuiGrid-grid-md-2.MuiGrid-grid-lg-2.MuiGrid-grid-xl-2.ranking, .volume-rate.ranking, .volume-rate-outer span{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .ProfileContent.collection-detail-page  .profile-img-outer {
+        margin-top: -240px;
+    }
+}
+
+/* CollectionDetailContent */

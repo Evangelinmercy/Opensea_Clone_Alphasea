@@ -1,0 +1,344 @@
+div#profile-block {
+    padding: 0 0 35px 0;
+    border-radius: 16.667px 16.667px 0 0 !important;
+border: 0.986px solid rgba(203, 239, 255, 0.16) !important;
+background: rgba(255, 255, 255, 0.76) !important;
+backdrop-filter: blur(98.61111450195312px) !important;
+}
+
+/* .profile-inner {
+    background: #fff !important;
+} */
+
+.profilebrand {
+    border-radius: 11px 0 0 11px;
+    background: rgba(167, 198, 234, 0.20);
+    margin-bottom: 100px;
+    text-align: right;
+    padding: 4px 30px 4px 10px;
+}
+
+.input-textfield-block {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+.company-details.company-details-left-part {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.input-textfield-block label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    width: 150px;
+    text-align: left;
+}
+
+.input-textfield-block input {
+    border-radius: 6.458px;
+    background: #FFF;
+    box-shadow: 4.84375px 4.84375px 11.30208px 0px rgba(156, 156, 156, 0.48) inset, -4.84375px -4.84375px 11.30208px 0px #FFF inset;
+    height: 54px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.search-box-filter .MuiInputBase-root {
+    width: 100%;
+}
+
+.input-textfield-block fieldset {
+    border-radius: 6.458px;
+    border: 1.615px solid #FFF;
+    opacity: 0.6;
+}
+
+.search-box-filter .MuiInputBase-root input {
+    padding-left: 50px !important;
+}
+
+.input-textfield-block .MuiInputBase-root {
+    width: 400px;
+}
+
+.MuiInputBase-root:hover fieldset, .MuiInputBase-root:hover input {
+    border: none;
+}
+
+a.Change-password {
+    background: rgba(240, 158, 0, 1);
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    display: inline-block;
+}
+
+.Change-password-outer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.input-textfield-block.Update-Data button {
+    text-transform: none;
+    font-size: 18px;
+}
+
+.input-textfield-block.Update-Data {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.input-textfield-block.Change-password-outer {
+    justify-content: flex-end;
+    padding-right: 190px;
+}
+
+.block-item h5 {
+    color: #151515;
+    font-size: 20px;
+    margin: 5px 0px 10px;
+}
+
+.text-block-div {
+    font-size: 20px;
+    padding: 15px 20px;
+    background: #fff;
+    display: inline-block;
+    color: #000;
+}
+
+.three-block-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    border: 0.887px solid rgba(203, 239, 255, 0.16);
+    background: rgba(174, 192, 236, 0.80);
+    backdrop-filter: blur(39.04999923706055px);
+}
+
+.text-block-div.approved {
+    background: transparent;
+    padding: 0px;
+}
+
+.text-block-div.approved img {
+    width: 50px;
+}
+
+.block-item {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.company-details {
+    text-align: left;
+}
+
+.company-details label {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+.company-details p {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.profile-image-outer {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.profile-image-outer h4 {
+    font-size: 18px;
+    margin: 15px 0px 5px;
+    color: #000;
+}
+
+.profile-image-outer img {
+    height: 200px;
+    width: 200px;
+}
+
+.profile-image-outer {
+    margin: 0px 10px 10px 0;
+}
+
+.edit-image-btn {
+    position: absolute;
+    bottom: 4px;
+    width: 96%;
+    padding: 10px;
+    background: #ccc;
+    border-radius: 0 0 20px 20px;
+    left: -3px;
+    text-align: center;
+}
+
+.edit-image-btn button {
+    text-transform: none;
+}
+
+.change-psswrd-block-popup .input-textfield-block {
+    padding-left: 0px;
+}
+
+.change-psswrd-block-popup .input-textfield-block {
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+.input-textfield-block.passwrd-change-btn {
+    justify-content: center;
+}
+
+.input-textfield-block.passwrd-change-btn button {
+    text-transform: none;
+}
+
+.close-change-passwrd-pop-up {
+    text-align: right;
+    margin-bottom: 5px;
+}
+.close-change-passwrd-pop-up{cursor: pointer;}
+
+.upload-image-block {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.profile-image.profile-image-design-block {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 0px;
+    background: #fff;
+}
+
+.upload-image-block svg {
+    margin-top: -55px;
+    font-size: 50px;
+}
+
+.flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer, .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer, .MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer {
+    background: #3d8bd924;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button, .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer button, .MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer button {
+    color: #000;
+}
+
+.flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected, .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer button.Mui-selected, .MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer button.Mui-selected {
+    background: #58a5f1d4;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@media (max-width: 991.98px){
+
+
+    .input-textfield-block {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    
+    .input-textfield-block div, .input-textfield-block label {
+        width: 100% !important;
+    }
+    
+    .three-block-profile {
+        flex-direction: column;
+    }
+
+    div#profile-block {
+        padding: 20px;
+    }
+
+    .input-textfield-block.Change-password-outer {
+        padding-right: 0;
+    }
+
+    .profilebrand{margin: 50px 0 30px 0;}
+
+    .change-psswrd-block-popup {
+        width: 80%;
+        margin: 0;
+    }
+}
+.connection-list.sm-responsive{
+    display: none;
+}
+@media  (max-width: 991.98px){
+    .tab.sm-responsive{
+        display: none;
+    }
+    .dashboard-page.profile-setting .profile-details {
+        margin-left: 0px;
+    }
+    .dashboard-page .profile-details-head{
+        margin-top: 0px !important;
+        margin-bottom: 20px;
+    }
+    .dashboard-page.profile-setting .MuiTextField-root, .textArea {
+        margin: 0 !important;
+        /* width: auto !important; */
+    }
+    .connection-list {
+        gap: 24%;
+    }
+    .connection-list.insta{
+        gap: 17%;
+    }
+    .dashboard-page.profile-setting .MuiBox-root {
+        width: auto;
+    }
+    .column-details {
+        margin-top: 10px;
+    }
+
+.dashboard-page.profile-setting .right-layer-image-upload .profile-image-outer {
+    margin-left: 0 !important;
+}
+.textArea, .textArea:focus-visible{
+    height: 71px !important;
+    overflow: hidden;
+    width: 221px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(18, 18, 18, 0.12) !important;
+    padding: 15px;
+    width: 98% !important;
+    padding-right: 0;
+}
+.connection-list.desktop{
+    display: none;
+}
+.connection-list.sm-responsive{
+    display: block !important;
+}
+}
+@media (min-width: 992px)and (max-width: 1199.98px){
+    .connection-list.insta {
+        gap: 44% !important;
+    }
+}

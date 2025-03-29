@@ -1,0 +1,148 @@
+
+/* MAKE COLLECTION OFFERS */
+
+/* .CollectionStats-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+} */
+.CollectionStats-heading h1 {
+    font-size: 48px;
+        font-weight: 600;
+        padding-top: 64px;
+        padding-bottom: 24px;
+        line-height: 56px;
+}
+.flex-box-all-chains-view-all.MuiBox-root.css-0 {
+    border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+.filter-list-flex{justify-content: space-between;}
+.CollectionStats-all-categories.all-chains-view-all svg {
+right: 10px;
+}
+.CollectionStats-all-categories.all-chains-view-all fieldset.MuiOutlinedInput-notchedOutline {
+    border:none;
+}
+.CollectionStats-container .all-chains-view-all {
+    display: flex;
+        align-items: center;
+        gap: 6px;
+        width: 88%;
+        background: rgba(18, 18, 18, 0.04);
+        border-radius: 13px;
+}
+.CollectionStats-container .MuiTabs-root.inner-tabs.inner-tabs-trend{
+    position: relative;
+    width: 80%;
+    top: 0px;
+    left: -3%;
+    margin-left: 0px;
+}
+.CollectionStats-container .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer,
+.MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer{
+    gap: 5px;
+}
+.CollectionStats-container .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected,
+.MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer button.Mui-selected,
+.MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer button.Mui-selected {
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    /* padding: 10px; */
+    padding: 5px;
+    padding-right: 10px;
+}
+.CollectionStats-container .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer,
+.MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer,
+.MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer {
+    background: rgba(18, 18, 18, 0.04);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.CollectionStats-tab3  .MuiTabs-root.inner-tabs.inner-tabs-trend {
+     position: relative;
+     width: 63%;
+     top: 0px;
+     left: -3%;
+     margin-left: 0px;
+ }
+ .CollectionStats-tab3 {
+     display: flex;
+     justify-content: end;
+ }
+ .CollectionStats-container .collections-outer {
+    justify-content: start;
+ }
+ .CollectionStats-container .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button.Mui-selected{
+    background: rgba(18, 18, 18, 0.04);
+        font-size: 16px;
+    color: rgb(18, 18, 18);
+        font-weight: 600;
+        text-transform: none;
+ }
+ .CollectionStats-container .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer{
+    background: none;
+ }
+ .CollectionStats-container .flex-box-all-chains-view-all .MuiTabs-root.outer-tabs .MuiTabs-scroller .MuiTabs-flexContainer button,
+ .MuiTabs-root.inner-tabs.inner-tabs-top .MuiTabs-flexContainer button,
+ .MuiTabs-root.inner-tabs.inner-tabs-trend .MuiTabs-flexContainer button {
+     color: #000;
+    text-transform: none;
+    color: rgb(84, 84, 84);
+    font-size: 16;
+    font-weight: 600;
+ }
+.CollectionStats-container div.lr-padding-remove>.MuiBox-root {
+     padding-right: 1rem;
+     padding-top: 34px;
+     padding-left: 1rem;
+ }
+.CollectionStats-container table.MuiTable-root th{
+     font-size: 14px;
+     font-weight: 600;
+    color: rgb(84, 84, 84);
+        border-bottom: none;
+ }
+.CollectionStats-container table.MuiTable-root td {
+     font-size: 16px;
+     font-weight: 600;
+        border-bottom: none;
+ }
+ .CollectionStats-table button img{
+    width: 30px;
+ }
+ .Collection-table-image-hover{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+ }
+ .Collection-table-image-hover img{
+    width: 70px;
+ }
+ .collection-stat-body-part {
+    padding: 0 40px;
+}
+
+.make-collection-container{
+    text-align: right;
+    padding: 12px 4rem;
+}
+.make-collection-container Button{
+    padding:0.75rem 1.5rem;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 129, 226);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 12px;
+    text-transform: capitalize;
+}
+
+/* MAKE COLLECTION OFFERS */

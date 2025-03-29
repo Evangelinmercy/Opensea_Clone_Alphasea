@@ -1,0 +1,59 @@
+.terms-unoredered-list{
+    padding-left: 24px;
+    list-style-type: disc;
+}
+
+.privacy-policy-body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.privacy-policy-body h1{
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(18, 18, 18);
+}
+.privacy-policy-body strong {
+    color: #000;
+    font-size: 18px;
+    line-height: 27px;
+}
+.privacy-policy-body ol {
+    list-style: none !important;
+    padding-left: 0;
+    margin: 0;
+}
+.privacy-policy-body p {
+    margin: 0px 0;
+    color: #2b2b2b;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.privacy-policy-body li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2b2b2b;
+}
+.address-info {
+    display: flex;
+    justify-content: center;
+}
+.privacy-policy-body a{
+    color:#2783e4 !important;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media (min-width: 1600px){
+    .privacy-policy-body {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width: 767px){
+    .privacy-policy-body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

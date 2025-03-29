@@ -1,0 +1,202 @@
+.help-center-img {
+    height: 100px;
+}
+
+.help-center-img img {
+    height: 100px;
+}
+
+.commonhelpblock {
+    padding: 20px 0px;
+    border: 1px solid #E5E8EB;
+    border-radius: 5px;
+    background: #F3FBFD;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.help-center-caption h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #000;
+}
+
+.commonhelpblock:hover {
+    box-shadow: rgb(14 14 14 / 25%) 0px 0px 8px 0px;
+    transition: all 0.1s ease 0s;
+}
+
+.product-detail.help-center-body {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.search-block-help-center {
+    height: 300px;
+    background: url(./HelpCenterImg/helpcenterbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.search-block-help-center > .MuiGrid-root.MuiGrid-container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.search-block-help-center > .MuiGrid-root.MuiGrid-container input, .search-block-help-center > .MuiGrid-root.MuiGrid-container > div {
+    width: 100%;
+}
+
+.search-block-help-center > .MuiGrid-root.MuiGrid-container > div .MuiInputBase-root {
+    height: 55px;
+    width: 100%;
+}
+
+.search-block-help-center > .MuiGrid-root.MuiGrid-container > div .MuiInputBase-root input {
+    padding-left: 55px;
+    color: #000;
+    opacity: 1 !important;
+}
+
+.search-block-help-center {
+    margin-bottom: 40px;
+}
+
+.search-block-help-center {
+    margin-bottom: 40px;
+}
+
+.help-center-body-contain-box > .MuiGrid-root.MuiGrid-container {
+    justify-content: center;
+}
+
+.help-center-body-contain-box > .MuiGrid-root.MuiGrid-container h3 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.help-center-body-contain-box > .MuiGrid-root.MuiGrid-container a.commonhelpblock {
+    padding: 5px 10px;
+}
+
+.help-center-body-contain-box > .MuiGrid-root.MuiGrid-container .help-center-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+}
+
+.help-center-body-contain-box h2 {
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: #484545;
+    text-align: center;
+}
+
+a.redirect-link-specific {
+    color: rgba(53, 56, 64, 1);
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 22px 0;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+
+.detail-pages-inner-outer h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #000;
+}
+
+.outer-bgcolor-container .detail-pages-inner-outer {
+    padding: 40px 80px;
+}
+
+.outer-bgcolor-container .detail-pages-inner-outer > .MuiBox-root {
+    padding: 20px 40px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.detail-pages-inner-outer h2 {
+    margin: 0px;
+}
+
+p.detail-pages-inner-outer-para {
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.breadcrum-helpcenter {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.breadcrum-helpcenter a {
+    text-decoration: none;
+    color: #0016ff;
+}
+
+div#link-left-side-id a {
+    text-align: left;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+div#link-left-side-detail-id {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+div#link-left-side-detail-id h2 {
+    color: #413e3e;
+}
+
+div#link-left-side-detail-id p {
+    font-size: 16px;
+    color: #2e2e2e;
+    line-height: 27px;
+}
+
+div#link-left-side-detail-id h4 {
+    font-size: 22px;
+    color: #494747;
+    margin-bottom: 0px;
+}
+
+.product-detail.help-center-body {
+    border-radius: 0px;
+}
+
+@media (max-width:991.98px){
+
+
+    .search-block-help-center > .MuiGrid-root.MuiGrid-container{width: 90%;}
+
+    .product-detail.help-center-body{border-radius: 0px;}
+
+    div#Promoted-Articles-part a.commonhelpblock {
+        padding: 5px;
+    }
+    .outer-bgcolor-container .detail-pages-inner-outer {
+        padding: 40px 15px;
+    }
+    div#link-left-side-detail-id {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+}

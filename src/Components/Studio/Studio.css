@@ -1,0 +1,198 @@
+.HeaderStudio-button-blue {
+    background: hsl(203.33deg 76.92% 54.12%);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.HeaderStudio-main {
+    border: 1px solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.12);
+}
+.HeaderStudio-main-box {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 50px;
+}
+.HeaderStudio-button button {
+    padding: 7px 20px;
+    border-radius: 12px;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.HeaderStudio-main-box .eth-and-weth button h2 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 10px;
+    color: #fff;
+}
+.HeaderStudio-main-box .eth-and-weth button {
+    display: flex;
+    align-items: center !important;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.12);
+}
+.StudioCollections-main-box-1 {
+    padding-bottom: 40px;
+}
+.StudioCollections-main-box-1 h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.StudioCollections-main-box-card {
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(18 18 18 /8%);
+    padding: 36px 32px;
+    display: flex;
+    gap: 24px;
+    border-radius: 12px;
+    transition: all 0.4s ease-out 0s;
+    background: transparent;
+    box-shadow: none;
+}
+.StudioCollections-main-box-card:hover{
+background-color: rgb(255, 255, 255);
+box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 24px;
+transform: translateY(-4px);
+}
+.StudioCollections-main-box-card-icon {
+    border-radius: 8px;
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #000;
+}
+.StudioCollections-main-box-card-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.StudioCollections-main-box-card-text h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.StudioCollections-main-box-card-icon svg {
+    color: #ffff;
+    width: 25px px;
+    height: 25px;
+}
+.StudioCollections-main-box-card-button {
+    padding: 10px;
+}
+.StudioCollections-main-box-card-button button {
+    padding: 10px 20px;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+.StudioCollections-main-box-card{
+        position: relative;
+}
+.StudioCollections-main-box-card-one.Resources::before {
+    position: absolute;
+    background: linear-gradient(45deg, rgb(246, 192, 0) 0%, rgb(242, 153, 74) 100%);
+    content: "";
+    left: 0;
+    right: 0;
+    width: 403px;
+    height: 148px;
+    z-index: -1;
+    border-radius: 10px 0px 0px 10px;
+}
+.StudioCollections-main-box-card-text.mobile-response {
+    display: none;
+}
+.logo.HeaderStudio svg {
+    width: 201px;
+    height: 50px;
+}
+.MuiGrid-root.MuiGrid-container.HeaderStudio-main-header {
+    display: flex;
+    align-items: center;
+}
+@media (max-width:991.98px) {
+.StudioCollections-main-box-1 h2 {
+    font-size: 24px !important;
+}
+}
+@media (max-width:767.98px) {
+.HeaderStudio-main-box .eth-and-weth {
+    display: none;
+}
+.StudioCollections-main-box-card {
+    flex-direction: column;
+        gap: 60px
+}
+.StudioCollections-main-box-card-icon {
+    padding: 30px;
+}
+.StudioCollections-main-box-card-button {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.StudioCollections-main-box-card-button button {
+    width: 100%;
+}
+.StudioCollections-main-box-card-one {
+    flex-direction: column;
+}
+.StudioCollections-main-box-card-image img {
+    width: 100%;
+}
+.StudioCollections-main-box-card-one.Resources::before {
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.StudioCollections-main-box-card-text.mobile-response {
+    display: block;
+}
+.StudioCollections-main-box-card-text {
+    text-align: center;
+}
+.StudioCollections-main-box-card-text.desktop {
+    display: none;
+}
+.StudioCollections-main-box-card.box12 {
+    gap: 20px;
+}
+.logo.HeaderStudio svg {
+    width: 150px;
+    height: 45px;
+}
+.HeaderStudio-main-box {
+    gap: 5px;
+    padding-right: 0px;
+}
+.HeaderStudio-main {
+    padding: 3px;
+}
+.HeaderStudio-button button {
+    padding: 8px 10px;
+    font-size: 14px;
+}
+}

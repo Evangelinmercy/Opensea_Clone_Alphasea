@@ -1,0 +1,202 @@
+
+.popBOX.msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px !important;
+    border-radius: 11.129px;
+    border: 0.658px solid rgba(203, 239, 255, 0.16);
+    background: #f0f8fe !important;
+    backdrop-filter: blur(65.84379577636719px);
+    padding: 20px 19px 20px 19px !important;
+    /* height: 84%; */
+}
+.rightInfo{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+}
+.RightInnerLayer{
+    -webkit-backdrop-filter: blur(84.12220001220703px);
+    padding: 20px;
+    padding-bottom: 0;
+}
+.follower{
+    border-radius: 5.289px;
+    background: linear-gradient(134deg, #FFF -26.79%, #D1D1D1 230.75%);
+    box-shadow: 0px 2.64452px 0px 0px #FFF inset, 2.64452px 10.57807px 31.73421px 0px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px !important;
+    margin-bottom: 15px;
+}
+.follower:hover{
+    border-radius: 5.289px;
+    border: 2.645px solid #0065FF;
+    background: linear-gradient(134deg, #FFF -26.79%, #D1D1D1 230.75%);
+    box-shadow: 0px 2.64452px 0px 0px #FFF inset, 2.64452px 10.57807px 31.73421px 0px rgba(0, 0, 0, 0.16);
+    padding: 15px !important;
+}
+.bottom_Btns {
+    padding: 15px 50px;
+}
+.bottom_Btns Button.handleBtn{
+    border-radius: 4.519px;
+    border: 2.259px solid #0065FF;
+    background: linear-gradient(134deg, #0065FF -26.79%, #8B8B8B 230.75%);
+    color: #FFF;
+    font-size: 17.492px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.follower_msg p {
+    color: #000 !important;
+    font-size: 17.061px;
+    font-weight: 500;
+    max-width: 440px !important;
+    margin: 0;
+    /* line-height: 149.687%; */
+}
+.bottom_Btns{
+    border-radius: 0px 0px 12.796px 12.796px;
+    border: 0.757px solid rgba(203, 239, 255, 0.16);
+    background: rgba(174, 192, 236, 0.80);
+    backdrop-filter: blur(33.3123893737793px);
+    display: flex;
+    justify-content: flex-start;
+    gap: 23px;
+}
+.follower_msg p.msg {
+margin-bottom: 10px;
+}
+.msgTime{
+    border-radius: 4.265px !important;
+    background: #244086 !important;
+    padding: 1.693px 9.029px !important;
+    color: #FFF !important;
+    font-size: 13.714px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 149.687%; /* 20.529px */
+}
+.timeLine {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.menu{
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menu img {
+    width: 30px;
+}
+.follower_profile img {
+    width: 64px;
+}
+.popBOX.msg .apply{
+    color: #007529 !important;
+    font-size: 18.492px !important;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize !important;
+    border-radius: 4.519px;
+    border: 2.259px solid #00FF29;
+    background: linear-gradient(134deg, #0F6 -26.79%, #8B8B8B 230.75%);
+    padding: 7px 40px  !important;
+}
+.popBOX.msg .butOutLayer{
+    background: #00FF29;
+    box-shadow: 0px 2.64452px 0px 0px #FFF inset, 2.64452px 10.57807px 31.73421px 0px rgba(0, 0, 0, 0.16);
+    width: fit-content;
+    border: 2.259px solid #00FF29;
+    border-radius: 4.519px;
+    margin: auto !important;
+}
+
+@media(max-width: 767px) {
+    .popBOX.msg{
+        width:87% !important;
+        bottom: -100px !important;
+        padding: 35px 19px 35px 20px !important;
+        height: 91%;
+    }
+    .menu {
+        margin-top: -24px;
+    }
+    .popBOX.msg{
+        overflow-x: hidden ;
+    }
+    .follower{
+        flex-direction: column;
+    }
+    .RightInnerLayer{
+        padding: 0;
+    }
+    .rightInfo {
+        margin-top: 70px;
+    }
+    .follower_msg {
+        text-align: center;
+    }
+    .timeLine {
+        justify-content: center;
+    }
+    .msg_icons {
+        display: flex;
+        gap: 10px;
+    }
+    .bottom_Btns{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.popBOX.msg {
+    width: 657px !important;
+    padding: 20px 19px 50px 32px !important;
+    overflow: scroll !important;
+    height: 71%;
+}
+.menu {
+    margin-bottom: 20px;
+}
+.RightInnerLayer {
+    -webkit-backdrop-filter: blur(84.12220001220703px);
+    padding: 20px;
+    padding-bottom: 0;
+    margin-top: 60px;
+}
+.rightInfo {
+    max-width: none !important;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .popBOX.msg {
+        width: 898px !important;
+        padding: 20px 19px 39px 47px !important;
+        overflow: scroll !important;
+        height: 78%;
+    }
+    .rightInfo {
+        max-width: 525px;
+    }
+    .menu {
+        margin-bottom: 20px;
+    }
+}
+
+/* .MuiModal-backdrop{
+    background: rgba(38, 38, 38, 0.32);
+backdrop-filter: blur(10px);
+} */
